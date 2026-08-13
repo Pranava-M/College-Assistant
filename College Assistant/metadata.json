@@ -1,0 +1,6 @@
+{
+  "name": "College AI Assistant",
+  "description": "24/7 AI College Assistant monitoring WhatsApp groups, parsing announcements, updating timetables with slot mapping, syncing Google Calendar, managing reminders, and supporting Make.com workflows.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

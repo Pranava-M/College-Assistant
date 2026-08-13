@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-feature-settings: "cv11", "ss01";
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: rgb(99 102 241 / 0.25);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgb(15 23 42 / 0.12); border-radius: 999px; }
+::-webkit-scrollbar-thumb:hover { background: rgb(15 23 42 / 0.22); }
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* Premium surfaces */
+.glass-card {
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(15, 23, 42, 0.07);
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04), 0 12px 32px -16px rgba(15, 23, 42, 0.10);
+}
+
+.gradient-text {
+  background-image: linear-gradient(90deg, #4f46e5, #7c3aed, #06b6d4);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.gradient-brand {
+  background-image: linear-gradient(135deg, #4f46e5, #7c3aed 60%, #06b6d4);
+}
+
+.btn-gradient {
+  background-image: linear-gradient(135deg, #4f46e5, #7c3aed);
+  transition: filter 0.2s ease, transform 0.15s ease;
+}
+.btn-gradient:hover { filter: brightness(1.08); }
+.btn-gradient:active { transform: scale(0.98); }
+
+/* Ambient gradient blobs for hero/backgrounds */
+.bg-aurora {
+  position: relative;
+  isolation: isolate;
+}
+.bg-aurora::before {
+  content: "";
+  position: absolute;
+  inset: -20%;
+  z-index: -1;
+  background:
+    radial-gradient(40% 35% at 15% 10%, rgba(99, 102, 241, 0.16), transparent 60%),
+    radial-gradient(35% 30% at 85% 0%, rgba(6, 182, 212, 0.14), transparent 60%),
+    radial-gradient(45% 40% at 50% 100%, rgba(124, 58, 237, 0.10), transparent 60%);
+  filter: blur(40px);
+  pointer-events: none;
+}
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-10px) rotate(1deg); }
+}
+.animate-float-slow {
+  animation: float-slow 6s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+.animate-pulse-glow {
+  animation: pulse-glow 2.4s ease-in-out infinite;
+}
