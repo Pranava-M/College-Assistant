@@ -6,6 +6,10 @@ This README walks through everything from zero: getting the API keys, running it
 
 > **Before you start:** this app comes with placeholder data (`Teacher 1`, `Course 1`, `Room 1`, etc.) instead of real names — you'll swap these for your own college's details in Step 6. It also uses an **unofficial** WhatsApp library (not WhatsApp's official Business API) to read your groups. That's common for personal projects like this, but it sits outside WhatsApp's Terms of Service, so there's a small real risk of your account being flagged. Consider using a secondary number if you'd rather not risk your primary one.
 
+<img width="1024" height="653" alt="image" src="https://github.com/user-attachments/assets/cca60b7e-0fc4-4b35-9795-333a4099f842" />
+<img width="1024" height="605" alt="image" src="https://github.com/user-attachments/assets/7e574a75-8539-487b-ae20-aef8f764cae4" />
+<img width="1024" height="547" alt="image" src="https://github.com/user-attachments/assets/b82595a3-3d9f-456b-b3d2-d59930596f33" />
+
 ---
 
 ## What you'll need before starting
