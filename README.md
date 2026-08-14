@@ -9,6 +9,7 @@ This README walks through everything from zero: getting the API keys, running it
 <img width="1024" height="653" alt="image" src="https://github.com/user-attachments/assets/cca60b7e-0fc4-4b35-9795-333a4099f842" />
 <img width="1024" height="605" alt="image" src="https://github.com/user-attachments/assets/7e574a75-8539-487b-ae20-aef8f764cae4" />
 <img width="1024" height="547" alt="image" src="https://github.com/user-attachments/assets/b82595a3-3d9f-456b-b3d2-d59930596f33" />
+<img width="1024" height="187" alt="image" src="https://github.com/user-attachments/assets/046423fb-7d93-4322-91ef-1e3bd6b2fdc3" />
 
 ---
 
